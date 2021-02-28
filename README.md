@@ -4,6 +4,8 @@ Using [balldontlie](https://balldontlie.io) API, I represent the top five player
 
 This is part of my mini-project series to showcase the Frontend skills that I've been reviewing to prepare myself for the job market.
 
+In this project here are some skills that I showcase:
+
 - Fetch API
 - Async/Await
 - Event handling
