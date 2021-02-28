@@ -1,0 +1,33 @@
+Only grab these players to display information of season leaders (averages)
+
+1. Pascal Siakam - 416
+2. Fred Vanvleet - 458
+3. Kyle Lowry - 286
+4. Norman Powell - 380
+5. OG Anunoby - 18
+6. Chris Boucher - 58
+7. Aron baynes - 35
+8. Deandre Bembry - 42
+9. Yuta watanabe - 470
+
+List of stats to display
+
+PPG
+RPG
+APG
+SPG
+BPG
+
+
+
+
+use https://www.balldontlie.io/#get-averages
+
+UI design inspiration:
+
+https://dribbble.com/shots/10590991-Leadersboard
+
+TODO:
+
+1. Get functionality down first
+2. Then worry about UI design after

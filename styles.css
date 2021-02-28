@@ -1,0 +1,92 @@
+* {
+  /* css reset */
+  padding: 0px;
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.player-leaderboard {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.player-leaderboard,
+.stats-categories {
+  margin-left: 30px;
+}
+
+.player-entry {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player-img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.first-place {
+  height: 400px;
+  width: 400px;
+  background-color: gold;
+}
+.second-place {
+  background-color: #c0c0c0;
+}
+.third-place {
+  background-color: #cd7f32;
+}
+
+.lower-place-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 40px;
+  width: 100%;
+  font-size: 18px;
+}
+.season-average {
+  font-weight: bold;
+}
+
+.info-container {
+  display: flex;
+}
+
+.first-place-container .player-entry {
+  flex-direction: column;
+}
+
+.first-place-container {
+  width: 100%;
+}
+.info-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.container-one {
+  display: flex;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.container-one .player-name {
+  padding-left: 20px;
+}
+
+.container-two {
+  font-size: 40px;
+}
